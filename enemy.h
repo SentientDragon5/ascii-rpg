@@ -25,8 +25,8 @@ void create_enemies(Enemy enemies[MAX_ENEMIES], char enemies_text[MAX_ENEMIES][M
 
 void read_enemies_file(char enemies_text[MAX_ENEMIES][MAX_ENEMY_STR_LEN], char *filename);
 
-void enter_battle();
-void read_text();
-void teleport();
+void enter_battle(void);
+void read_text(void);
+void teleport(void);
 
 #endif

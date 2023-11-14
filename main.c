@@ -29,7 +29,7 @@ extern char* do_action(int player_x, int player_y, Enemy enemies[MAX_ENEMIES]);
 extern void create_enemies(Enemy enemies[MAX_ENEMIES], char enemies_text[MAX_ENEMIES][MAX_ENEMY_STR_LEN]);
 extern void read_enemies_file(char enemies_text[MAX_ENEMIES][MAX_ENEMY_STR_LEN], char *filename);
 
-int main() {
+int main(void) {
   set_terminal_mode();
   char map[MAP_HEIGHT][MAP_WIDTH];
   int player_x = 10, player_y = 10;
